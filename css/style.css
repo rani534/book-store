@@ -1,0 +1,86 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+table{
+    margin: auto;
+    width: 450px;
+
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr{
+   height: 35px;
+}
+
+button{
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 25px;
+
+}
+
+.read{
+    background-color:blue ;
+  
+}
+.update{
+    background-color: rgb(236, 164, 8);
+
+}
+.delete{
+    background-color: rgb(223, 25, 25);
+    
+}
+
+h4:hover {
+   cursor: pointer;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+.modal h2{
+    flex-grow: 1
+}
+.book-details{
+    display: flex;
+    flex-grow: 7;
+}
+ 
+.modal button {
+    background-color: coral;
+    flex-grow: 1
+    
+}
+
+
+.book-details section img{
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+.book-details section {
+    width: 30%;
+    
+}
+.book-details pre {
+   width: 70%;
+
+}
+
