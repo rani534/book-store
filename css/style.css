@@ -19,7 +19,7 @@ tr{
 }
 
 button{
-    color: white;
+    color: rgba(255, 255, 255, 0.527);
     border: 0;
     border-radius: 5px;
     display: block;
